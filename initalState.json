@@ -1,0 +1,82 @@
+{
+  "initialState": {
+  "unidades": [
+      {
+        "id": 1,
+        "unidad": "01",
+        "kilometraje": "150000km",
+        "explotacion": "alta"
+      },
+      {
+        "id": 2,
+        "unidad": "02",
+        "kilometraje": "150000km",
+        "explotacion": "alta"
+      },
+      {
+        "id": 3,
+        "unidad": "03",
+        "kilometraje": "150000km",
+        "explotacion": "alta"
+      },
+      {
+        "id": 4,
+        "unidad": "04",
+        "kilometraje": "150000km",
+        "explotacion": "alta"
+      }
+    ],
+  "personal": [
+    {
+      "id": 13,
+      "siglas": "JFAV",
+      "nombres": "Juan Fernando",
+      "apellidos": "Angulo Vasco",
+      "coigoSap": 1234, 
+      "perfil": "Supervisor"
+    },
+    {
+      "id": 14,
+      "siglas": "JAHZ",
+      "nombres": "Johan Arturo",
+      "apellidos": "Henao Zapata",
+      "coigoSap": 1234,
+      "perfil": "Auxiliar mecánico"
+    },
+    {
+      "id": 15,
+      "siglas": "JJBC",
+      "nombres": "Jair De Jesus",
+      "apellidos": "Bedoya Cadavid",
+      "coigoSap": 1234,
+      "perfil": "Auxiliar mecánico"
+    }
+  ],
+  "hojaDeRuta": [
+    {
+      "id": 25,
+      "ruta": "2500km",
+      "tareas": [
+        {
+          "Op0010": "Inspección de 2500 km",
+          "SoP0010": "Se revisa bandas de rodamiento <RCM>",
+          "SoP0020": "Se revisa los discos de rodillos guiado",
+          "SoP0030": "Se revisa pasadores ejes rodillos <RCM>",
+          "SoP0040": "Se revisa el DDO"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "ruta": "7500km",
+      "tareas": [
+        {
+          "Op0010": "Se revisa nivel conj. reductor ME <LCC>",
+          "SoP0010": "Se revisa nivel trans. eje mot. ME <LCC>",
+          "SoP0020": "Se revisa nivel compre. Prin. ME <LCC>"
+        }
+      ]
+    }
+  ]
+  }
+}
