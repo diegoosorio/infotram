@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const TaskDetails = () => (
     <>
@@ -82,7 +83,9 @@ const TaskDetails = () => (
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>    
                 </div>
             </form>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Notificar</button>
+            <Link to="/sap">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Notificar</button>
+            </Link>
         </div>
     </>
 )

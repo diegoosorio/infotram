@@ -25,7 +25,7 @@ const Tasks = () => {
                 <TaskList ruta={initialState.mantenimiento7500}/>
             </Task>
 
-            <Link to="/" className="btn btn-primary btn-lg btn-block pt-5 pb-5 mt-2 mb-5">Notificar en SAP</Link>
+            <Link to="/Sap" className="btn btn-primary btn-lg btn-block pt-5 pb-5 mt-2 mb-5">Notificar en SAP</Link>
 
         </>
     );

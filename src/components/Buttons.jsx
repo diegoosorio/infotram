@@ -7,6 +7,8 @@ const Buttons = (props) => (
         <div className="d-flex flex-column align-items-center">
             <Link to="/tasks" className="btn btn-primary btn-lg col-md-9 mb-2 p-5 ">Mantenimiento programado</Link>
             <Link to="/tasks" className="btn btn-primary btn-lg col-md-9 mb-2 p-5">Personal programado</Link>
+            <Link to="/explotacion" className="btn btn-primary btn-lg col-md-9 mb-2 p-5">Explotación Tranvia</Link>
+            <Link to="/taller" className="btn btn-primary btn-lg col-md-9 mb-2 p-5">Estado Taller</Link>
          </div>
     </>
 );
