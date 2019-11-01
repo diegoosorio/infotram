@@ -49,15 +49,39 @@ const Explotacion = () => (
                 <td>150000 km</td>
                 </tr>
                 <tr>
-                <th scope="row">3</th>
+                <th scope="row">7</th>
                 <td>31/10/2019</td>
-                <td>Unidad 03</td>
+                <td>Unidad 07</td>
                 <td>150000 km</td>
                 </tr>
                 <tr>
-                <th scope="row">3</th>
+                <th scope="row">8</th>
                 <td>31/10/2019</td>
-                <td>Unidad 03</td>
+                <td>Unidad 08</td>
+                <td>150000 km</td>
+                </tr>
+                <tr>
+                <th scope="row">9</th>
+                <td>31/10/2019</td>
+                <td>Unidad 09</td>
+                <td>150000 km</td>
+                </tr>
+                <tr>
+                <th scope="row">10</th>
+                <td>31/10/2019</td>
+                <td>Unidad 10</td>
+                <td>150000 km</td>
+                </tr>
+                <tr>
+                <th scope="row">11</th>
+                <td>31/10/2019</td>
+                <td>Unidad 11</td>
+                <td>150000 km</td>
+                </tr>
+                <tr>
+                <th scope="row">12</th>
+                <td>31/10/2019</td>
+                <td>Unidad 12</td>
                 <td>150000 km</td>
                 </tr>
             </tbody>
