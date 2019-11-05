@@ -6,9 +6,11 @@ import NotFound from '../containers/NotFound';
 import Tasks from '../containers/Tasks';
 import TaskDetails from '../containers/TaskDetails';
 import Personal from '../containers/Personal';
-import Sap from '../containers/Sap'
-import Explotacion from '../containers/Explotacion'
-import Taller from '../containers/Taller'
+import Sap from '../containers/Sap';
+import Explotacion from '../containers/Explotacion';
+import Taller from '../containers/Taller';
+import Stats from '../containers/Stats';
+import ProgramaSemanal from '../containers/ProgramaSemanal';
 
 const App = () => (
   <BrowserRouter>
@@ -21,6 +23,8 @@ const App = () => (
         <Route exact path="/sap" component={Sap} />
         <Route exact path="/explotacion" component={Explotacion} />
         <Route exact path="/taller" component={Taller} />
+        <Route exact path="/stats" component={Stats} />
+        <Route exact path="/programaSemanal" component={ProgramaSemanal} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
